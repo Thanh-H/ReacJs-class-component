@@ -1,0 +1,43 @@
+
+.table{
+    .thanh{
+        min-width: 300px;
+    }
+    margin-top: 30px;
+    text-align: left;
+    border-collapse: collapse;
+    th, td {
+        &:first-child{
+            text-align: center;
+        }
+        padding-right: 16px;
+        border: 1px solid #dddddd;
+      font-size: 18px;
+      
+    }
+    .title {
+        font-size: 16px;
+    }
+    .btn{
+        width: 60px;
+        margin-bottom: 2px;
+    }
+}
+
+.add-todo{
+    input{
+        height: 20px;
+        min-width: 320px;
+        border-radius: 10px;
+        text-align: center;
+        border: solid 2px #000;
+    }
+    button{
+        margin-top: 15px;
+        padding: 4px 40px ;
+        background-color: blue;
+        border-radius: 10px;
+        color: #dddddd;
+        font-size: 16px;
+        }
+}
